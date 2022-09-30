@@ -1,0 +1,22 @@
+{
+  "name": "friends-of-hyva/magento2-preload-images",
+  "description": "Preload images above the fold to improve performance metrics.",
+  "type": "magento2-module",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "authors": [{
+    "name": "Vinai Kopp",
+    "email": "vinai@hyva.io"
+  }],
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "FriendsOfHyva\\PreloadImages\\": "src/"
+    }
+  }
+}
