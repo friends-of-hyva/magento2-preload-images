@@ -34,7 +34,7 @@ The preloading is triggered in the browser by a [`Link`](https://www.incoherent.
 Take this screenshot of a PDP waterfall chart on slow 3G without preloading:
 ![Load times waterfall chart of a PDP without preloading](./images/pdp-preload-off.png)
 
-You can see the main product image `wp13-orange_maim_1.jpg` begins loading shortly after the `protia-capri.html` document is received.  
+You can see the main product image `wp13-orange_maim_1.jpg` begins loading shortly after the `portia-capri.html` document is received.  
 The browser requests the main product image after the css files used by the page.
 
 Here is the screenshot of the same page with preloading:
