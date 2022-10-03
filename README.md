@@ -39,6 +39,7 @@ The browser requests the main product image after the css files used by the page
 
 Here is the screenshot of the same page with preloading:
 ![Load times waterfall chart of a PDP with preloading](./images/pdp-preload-on.png)
+
 With preloading, the browser requests the main product image before even the css files.
 
 ### Be aware!
