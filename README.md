@@ -23,7 +23,7 @@ In Hyvä the ViewModelRegistry can be used, with Luma based themes the view mode
 
 ```php
 /** @var string $imageUrl */
-$viewModels->require($viewModels->require(PreloadImages::lass)->add($mainImageData);::class)->add($imageUrl);
+$viewModels->require($viewModels->require(PreloadImages::class)->add($mainImageData)->add($imageUrl);
 ```
 
 
