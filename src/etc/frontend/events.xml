@@ -2,6 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="controller_front_send_response_before">
-        <observer name="hyva_preload_imgages_link_headers" instance="FriendsOfHyva\PreloadImages\Observer\AddPreloadImageLinkHeader"/>
+        <observer name="hyva_preload_images_link_headers" instance="FriendsOfHyva\PreloadImages\Observer\AddPreloadImageLinkHeader"/>
     </event>
 </config>
