@@ -15,7 +15,7 @@ composer require friends-of-hyva/magento2-preload-images
 
 ## Usage:
 
-Import the `Hyva\PreloadImages\ViewModel\PreloadImages` view model into your template and call the `add()` method, passing the image URL string as a parameter.
+Import the `FriendsOfHyva\PreloadImages\ViewModel\PreloadImages` view model into your template and call the `add()` method, passing the image URL string as a parameter.
 
 In Hyvä the ViewModelRegistry can be used, with Luma based themes the view model has to be passed into the template as a block argument using Layout XML.
 
